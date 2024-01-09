@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.main {
+  display: flex;
+  align-items: stretch;
+}
+li {
+  list-style: none;
+}
+
+.cont {
+  flex: 1;
+  border: 2px solid red;
+}
+:root {
+  --primary: #1890ff;
+  --loader: #66aaee;
+}
+a {
+  text-decoration: none;
+}
+.text-user {
+  --bs-text-opacity: 1;
+  color: #1890ff, var(--bs-text-opacity) !important;
+}
+
+/* for editicon css here  */
+.forediticon svg {
+  /* border: 5px solid #c0c0c0; */
+  color: #888585;
+  /* border-radius: 5px; */
+  width: 1.8rem;
+  height: 1.8rem;
+}
+.forediticon svg:hover {
+  /* border: 5px solid #a0a0a0; */
+  color: red;
+  cursor: pointer;
+}
+
+/* modal close icon css here  */
+
+.btn-close {
+  border: 5px solid gray !important;
+  width: 0.65rem !important;
+  height: 0.65rem !important;
+}
+.border {
+  border: var(--bs-border-width) var(--bs-border-style) rgba(217, 217, 217, 1) !important;
+}
+p {
+  font-size: 0.875rem;
+}
+.currentEmission thead {
+  background-color: #f5f5f5 !important;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.main-class{
+  background-color: #FFFFFF;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+/* for animation */
+  
+.fadeOut {
+  animation: fadeOutAnimation 0.5s ease forwards;;
+  opacity: 0;
+}
+.fadeIn {
+  opacity: 0;
+  animation: fade-in-animation 0.5s ease forwards;
+}
+
+@keyframes fade-in-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+@keyframes fadeOutAnimation {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

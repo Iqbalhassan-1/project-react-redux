@@ -1,0 +1,40 @@
+#forselectdiv {
+  padding: 0px 10px;
+  /* margin-bottom: 5px; */
+}
+#forselectdiv select {
+  padding: 0.1rem 2.25rem 0.1rem 1rem !important;
+  margin-top: 1px !important;
+  border: 1px solid rgba(217, 217, 217, 1) !important;
+  color: var(--primary) !important;
+  font-size: 0.875rem !important;
+  font-weight: 400 !important;
+  background-image: url("../../../../assets//images/downarrow.svg");
+}
+#forselectdiv option {
+  color: black;
+}
+.forcenterrdiv {
+  width: 23px;
+  height: 23px;
+  border: 3px solid #52c41a;
+  border-radius: 50%;
+  margin-top: 1px;
+  left: 70%;
+  position: relative;
+}
+.forcenterrdivicon {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.forcenterrdivreject {
+  width: 20px;
+  height: 20px;
+  border: 3px solid white;
+  border-radius: 50%;
+  left: 70%;
+  bottom: 3.5%;
+  position: relative;
+}

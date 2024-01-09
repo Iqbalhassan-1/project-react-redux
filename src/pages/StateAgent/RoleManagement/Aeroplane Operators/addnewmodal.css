@@ -1,0 +1,13 @@
+.forlabelspan {
+  font-size: 1.1rem !important;
+  font-weight: 500 !important;
+  color: rgba(0, 0, 0, 0.85) !important;
+}
+
+#mainnewao .form-control {
+  border-radius: 2px !important;
+  border: 1px solid rgba(217, 217, 217, 1) !important;
+}
+#mainnewao .form-control::placeholder {
+  color: rgba(0, 0, 0, 0.25) !important;
+}

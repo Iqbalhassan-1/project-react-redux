@@ -1,0 +1,12 @@
+/* #mainVerification thead {
+  background-color: #f5f5f5 !important;
+  font-size: 0.9rem;
+  font-weight: 500;
+} */
+.divEr {
+  border: 1px solid #ffbb96;
+  stroke-width: 1px;
+  background-color: #fff2e8;
+  color: #fa541c;
+  padding: 0.1rem 0.3rem;
+}

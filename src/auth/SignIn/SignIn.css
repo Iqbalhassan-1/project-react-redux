@@ -1,0 +1,137 @@
+.main-rowAll {
+  height: 100vh;
+  position: relative;
+}
+.spaceAll {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding: 50px 50px 0px 50px !important;
+}
+.bgFor-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 10% 60%;
+  position: relative;
+}
+.forTop-img {
+  position: absolute;
+  left: 3%;
+  top: 3%;
+}
+
+.form_container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100% !important;
+  background-color: #ffffff;
+  /* box-shadow: 0px 106px 42px rgba(0, 0, 0, 0.01),
+    0px 59px 36px rgba(0, 0, 0, 0.05), 0px 26px 26px rgba(0, 0, 0, 0.09),
+    0px 7px 15px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 11px; */
+}
+
+.input_container {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.icon {
+  width: 20px;
+  position: absolute;
+  z-index: 99;
+  left: 12px;
+  bottom: 10px;
+}
+
+.input_label {
+  font-size: 0.75rem;
+  color: #8b8e98;
+  font-weight: 600;
+}
+
+.input_field {
+  width: auto;
+  height: 40px;
+  color: #000000;
+  font-size: 1rem;
+  padding: 0 0 0 40px;
+  border-radius: 2px;
+  /* outline: none; */
+  border: 1px solid #e5e5e5;
+  /* filter: drop-shadow(0px 1px 0px #efefef)
+    drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5)); */
+  transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+
+.input_field:focus {
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 0px 2px #8b8e98;
+  background-color: transparent;
+}
+
+.sign-in_btn {
+  width: 100%;
+  height: 40px;
+  font-size: 1rem;
+  font-weight: 400;
+  border: 0;
+  border-radius: 2px;
+  background: var(--primary);
+  outline: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.form-check-label {
+  font-size: 0.875rem !important;
+  font-weight: 500;
+  color: #000000 85%;
+}
+.forLink a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+/*start from here  styling for show password and hidden password  */
+
+.yes {
+  position: relative;
+}
+
+.passwordToggleIcon2 {
+  position: absolute;
+  top: 9px;
+  right: 25px;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+/*end here  styling for show password and hidden password  */
+
+/* start from here the verificationemail css  */
+.forcenterdiv {
+  width: 60px;
+  height: 60px;
+  border: 3px solid #52c41a;
+  border-radius: 50%;
+  position: relative;
+}
+.forcenterdivicon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* end  here the verificationemail css  */

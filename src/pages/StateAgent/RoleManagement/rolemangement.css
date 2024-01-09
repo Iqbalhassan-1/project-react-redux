@@ -1,0 +1,29 @@
+/* RoleManagement.css */
+  
+  .fadeOut {
+    animation: fadeOutAnimation 0.5s ease forwards;;
+    opacity: 0;
+  }
+  .fadeIn {
+    opacity: 0;
+    animation: fade-in-animation 0.5s ease forwards;
+  }
+  
+  @keyframes fade-in-animation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+ 
+  
+  @keyframes fadeOutAnimation {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }

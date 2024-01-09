@@ -1,0 +1,19 @@
+.iconspanr {
+  color: red;
+  padding-bottom: 0.75rem;
+}
+.iconspanc {
+  color: rgb(110, 175, 11);
+  padding-bottom: 0.75rem;
+}
+.paragraph {
+  padding-left: 2.1rem;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.85);
+}
+.smalltag {
+  padding-left: 2.1rem;
+  font-size: 0.875rem;
+  display: flex;
+  align-items: start;
+}

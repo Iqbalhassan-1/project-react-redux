@@ -1,0 +1,13 @@
+.custom-modal-lg {
+  max-width: 90% !important;
+}
+
+.custom-modal-lg .modal-dialog {
+  max-width: 100% !important;
+  width: auto !important;
+  margin: 10px !important;
+}
+
+.custom-modal-lg .modal-content {
+  padding: 20px !important;
+}

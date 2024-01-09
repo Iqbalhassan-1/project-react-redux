@@ -1,0 +1,77 @@
+#drag-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 250px;
+  border: 2px dashed #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.drag-Icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 60px;
+  color: #1890ff;
+  /* cursor: move; */
+}
+/* Choose file design */
+.custom-file-input {
+  display: inline-block;
+  padding: 10px;
+  color: #1890ff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#file-input {
+  display: none;
+}
+
+.modal-text {
+  font-size: 12px;
+  opacity: 0.7;
+}
+/* Select option opacity */
+.placeholder {
+  opacity: 0.5;
+  font-size: 20px;
+}
+
+/* cross check info  */
+.cross-check-info p {
+  opacity: 0.7;
+  font-size: 14px;
+}
+.cross-check-text p {
+  font-size: 14px;
+}
+.cross-check-text {
+  font-size: 14px;
+}
+
+/* cross check aeroplane */
+.custom-border {
+  border: 1px solid #ccc;
+
+  padding: 10px;
+}
+
+.remarks-text {
+  font-size: 14px;
+}
+/* check box font */
+.custom-label {
+  font-size: 14px;
+}
+/* Custom css color on buttons */

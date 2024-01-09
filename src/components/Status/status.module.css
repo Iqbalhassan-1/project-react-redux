@@ -1,0 +1,146 @@
+.divverfied {
+  border: 1px solid rgba(183, 235, 143, 1);
+  background-color: rgba(246, 255, 237, 1);
+  color: rgba(82, 196, 26, 1);
+  border-radius: 2px;
+  padding: 0.1rem 0.3rem;
+}
+.crossChecked {
+  border: 1px solid rgba(183, 235, 143, 1);
+  background-color: rgba(246, 255, 237, 1);
+  color: rgba(82, 196, 26, 1);
+  border-radius: 2px;
+  padding: 0.1rem 0.3rem;
+  font-size: small;
+}
+.divunverified {
+  border: 1px solid rgba(255, 163, 158, 1);
+  background-color: rgba(255, 241, 240, 1);
+  color: rgba(245, 34, 45, 1);
+  border-radius: 2px;
+  padding: 0.1rem 0.3rem;
+}
+.diver {
+  border: 1px solid #ffbb96;
+  stroke-width: 1px;
+  background-color: #fff2e8;
+  color: #fa541c;
+  padding: 0.1rem 0.3rem;
+}
+.diveucr {
+  border: 1px solid #adc6ff;
+  background-color: #f0f5ff;
+  color: #2f54eb;
+  padding: 0.1rem 0.2rem;
+}
+.divactive {
+  border: 1px solid rgba(183, 235, 143, 1);
+  background-color: rgba(246, 255, 237, 1);
+  color: rgba(82, 196, 26, 1);
+  border-radius: 2px;
+  padding: 0.1rem 0.85rem;
+}
+.divinactive {
+  border: 1px solid rgba(217, 217, 217, 1);
+  background-color: rgba(240, 240, 240, 1);
+  color: rgba(0, 0, 0, 0.4);
+  border-radius: 2px;
+  padding: 0.1rem 0.3rem;
+}
+.divrejected {
+  border: 1px solid rgba(255, 163, 158, 1);
+  background-color: rgba(255, 241, 240, 1);
+  color: rgba(245, 34, 45, 1);
+  border-radius: 2px;
+  padding: 0.1rem 0.3rem;
+}
+.divpending {
+  border: 1px solid #ffd591;
+  background-color: #fff7e6;
+  color: #fa8c16;
+  border-radius: 2px;
+  padding: 0.1rem 0.3rem;
+}
+.status_done {
+  display: flex;
+  justify-content: center;
+  padding: 0.1rem 0.3rem;
+  margin-top: 3px;
+  background: #f6ffed !important;
+  color: #52c41a;
+  border: 1px solid #b7eb8f;
+  border-radius: 2px;
+  padding: 0rem 0.3rem;
+}
+.divdraft {
+  border: 1px solid rgba(255, 213, 145, 1);
+  background-color: rgba(255, 247, 230, 1);
+  color: rgba(250, 140, 22, 1);
+  border-radius: 2px;
+  padding: 0.1rem 0.8rem;
+}
+.status_yes {
+  display: flex;
+  justify-content: center;
+  padding: 0rem 0.3rem;
+
+  margin-top: 3px;
+  background: #f6ffed !important;
+  color: #52c41a;
+  border: 1px solid #b7eb8f;
+  padding: 0.1rem 0.3rem;
+  border-radius: 2px;
+}
+
+.status_no {
+  display: flex;
+  padding: 0rem 0.3rem;
+
+  justify-content: center;
+  margin-top: 3px;
+  background: #fff2e8 !important;
+  padding: 0.1rem 0.3rem;
+  color: #fa541c;
+  border: 1px solid #ffbb96;
+  border-radius: 2px;
+}
+.status_pending {
+  display: flex;
+  justify-content: center;
+  margin-top: 3px;
+  background: #fff2e8 !important;
+  padding: 0.1rem 0.3rem;
+
+  color: #fa541c;
+  border: 1px solid #ffbb96;
+  border-radius: 2px;
+}
+.cross_check_pending {
+  display: flex;
+  justify-content: center;
+  margin-top: 3px;
+  background: #f9f0ff !important;
+  color: #722ed1;
+  padding: 0.1rem 0.3rem;
+  border: 1px solid #d3adf7;
+  border-radius: 2px;
+  width: 60px;
+}
+.status_approved {
+  display: flex;
+  justify-content: center;
+  padding: 0.1rem 0.3rem;
+  margin-top: 3px;
+  background: #f6ffed !important;
+  color: #52c41a;
+  border: 1px solid #b7eb8f;
+  border-radius: 2px;
+  padding: 0rem 0.3rem;
+}
+.divsubmitted {
+  border: 1px solid #b7eb8f;
+  background-color: #f6ffed;
+  color: #52c41a;
+  border-radius: 2px;
+  padding: 0.1rem 0.3rem;
+}

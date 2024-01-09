@@ -1,0 +1,30 @@
+.createbutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 3px;
+  width: 100%;
+  padding: 5px 15px;
+  border-radius: 2px;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 22px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  border: 1px solid var(--primary);
+  color: white;
+  background-color: var(--primary);
+}
+.createbutton:hover {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+.addicons svg {
+  margin-bottom: 0.19rem;
+  color: white !important;
+}
+.disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}

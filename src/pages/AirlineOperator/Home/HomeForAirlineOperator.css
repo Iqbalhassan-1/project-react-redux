@@ -1,0 +1,29 @@
+.fixed-top-header {
+  height: 70px;
+   background-color: #FFFFFF;
+
+   /* border-bottom: 1px solid #F0F0F0; */
+ }
+ .fixed-sidebar {
+  height: calc(100vh - 80px); /* Subtract the height of the top header */
+   position: fixed;
+   top: 80px; /* Offset by the height of the top header */
+   width: 280px;
+   /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+   background-color: #FFFFFF;
+ }
+ .content {
+   margin-left: 280px; /* Same width as the sidebar */
+   height: calc(100vh - 80px); /* Subtract the height of the top header */
+   overflow-y: auto;
+   background-color:#FAFAFA;
+   padding: 0px 5px;
+   margin-top: 10px;
+ }
+ 
+ .fixed-sidebar ul li :focus {
+   background-color: #e6f7ff !important;
+   color: #1890ff !important;
+   border-left: 3px solid #1890ff;
+ }
+ 
